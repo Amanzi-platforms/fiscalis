@@ -1,0 +1,116 @@
+{
+  "fiscal_systems": [
+    {
+      "name": "Congo-Brazzaville Fiscal System",
+      "code": "CB-FS-VAT-SS",
+      "country": "Congo-Brazzaville",
+      "country-code": "CG",
+      "phone-code": "00242",
+      "vat": {
+        "operations_performed": {
+          "standard_rate_18": 0,
+          "public_administration_18": 0,
+          "self_delivery_18": 0,
+          "reduced_rate_5": 0,
+          "public_administration_5": 0,
+          "self_delivery_5": 0,
+          "exports_zero_rate": 0,
+          "other_zero_rate_operations": 0,
+          "non_taxable_operations": 0,
+          "total_operations_performed": 0
+        },
+        "deductions": {
+          "deductions_100": {
+            "local_purchases": 0,
+            "deduction_complements": 0,
+            "total_vat_deductible_100": 0
+          },
+          "deductions_prorata": {
+            "goods_and_services_non_capitalized": {
+              "local_purchases": 0,
+              "imports": 0,
+              "total_goods_and_services_deductions": 0
+            },
+            "goods_and_services_capitalized": {
+              "local_purchases": 0,
+              "imports": 0,
+              "total_capitalized_deductions": 0
+            },
+            "total_vat_deductible_prorata": 0
+          }
+        },
+        "rights_calculation": {
+          "vat_collected": {
+            "vat_gross_standard_rate": 0,
+            "vat_gross_reduced_rate": 0,
+            "total_vat_gross_period": 0,
+            "total_vat_collected": 0
+          },
+          "vat_deductible": {
+            "vat_reported_line_29": 0,
+            "vat_net_payable": 0
+          }
+        }
+      },
+      "additional_cents": {
+        "gross_cents": 0,
+        "net_cents_payable": 0
+      },
+      "excise_duties": {
+        "products": {
+          "rate_12_5": 0,
+          "rate_15": 0,
+          "rate_25": 0,
+          "total_excise_duties": 0
+        }
+      },
+      "foreign_supplier_operations": {
+        "vat_operations_performed": 0,
+        "cents_operations_performed": 0
+      },
+      "payment": {
+        "total_rights_to_pay": {
+          "vat": 0,
+          "additional_cents": 0,
+          "total_general_rights": 0
+        }
+      },
+      "taxes": {
+        "personal_income_tax": {
+          "salary_income": 0,
+          "bic_ba_bnc_income": 0,
+          "corporate_tax": 0,
+          "other_taxes": 0
+        },
+        "securities_income_tax": {
+          "dividends_interest": 0,
+          "withholding_tax": 0
+        },
+        "local_taxes": {
+          "property_tax_built": 0,
+          "property_tax_unbuilt": 0,
+          "local_occupation_tax": 0
+        }
+      },
+      "social_security": {
+        "social_contributions": {
+          "employer_contributions": 0,
+          "employee_contributions": 0,
+          "family_allowances": 0,
+          "health_insurance": 0,
+          "other_contributions": 0
+        },
+        "employees": [
+          {
+            "first_name": "",
+            "last_name": "",
+            "position": "",
+            "days_worked": 0,
+            "gross_salary": 0,
+            "social_parts": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "paiements": [
+    {
+      "label": "Paiements Impôts",
+      "montant": null,
+      "date_echeance": null
+    },
+    {
+      "label": "Paiements CNSS",
+      "montant": null,
+      "date_echeance": null
+    },
+    {
+      "label": "Paiements Divers",
+      "montant": null,
+      "date_echeance": null
+    }
+  ],
+  "declarations": [
+    {
+      "label": "Déclaration de TVA",
+      "montant": null,
+      "date_declaration": null
+    },
+    {
+      "label": "Déclaration d'Impôt sur le Revenu",
+      "montant": null,
+      "date_declaration": null
+    },
+    {
+      "label": "Déclaration de Sécurité Sociale",
+      "montant": null,
+      "date_declaration": null
+    }
+  ]
+}

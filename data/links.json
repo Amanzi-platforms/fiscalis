@@ -1,0 +1,17 @@
+[
+  { "label": "Taxe sur la Valeur Ajoutée", "path": "/declarations/vat" },
+  { "label": "Impôt sur le revenu", "path": "/declarations/income-tax" },
+  { "label": "Sécurité sociale", "path": "/declarations/social-security" },
+  { "label": "Droits d'accise", "path": "/declarations/excise-duties" },
+  { "label": "Effectuer un paiement", "path": "/payments/make" },
+  { "label": "Historique des paiements", "path": "/payments/history" },
+  { "label": "Rapport général", "path": "/reports/general" },
+  { "label": "Rapport fiscal", "path": "/reports/tax" },
+  {
+    "label": "Rapport de sécurité sociale",
+    "path": "/reports/social-security"
+  },
+  { "label": "FAQ", "path": "/help/faq" },
+  { "label": "Contacter le support", "path": "/help/support" },
+  { "label": "Documentation", "path": "/help/documentation" }
+]

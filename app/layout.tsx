@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className="text-sm">
+      <body className="text-sm scroll-smooth focus:scroll-auto">
         {/* <AppProvider> */}
         {children}
         {/* </AppProvider> */}

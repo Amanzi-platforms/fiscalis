@@ -3,14 +3,9 @@ import { Icon } from "@/components/layouts/icon";
 import { FileTree } from "@/components/navigations/file-tree";
 import { UserDropdown } from "@/components/navigations/user-dropdown";
 import { Bell, CalendarDays, ChartSpline, CircleHelp, LayoutGrid } from "lucide-react";
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ReactNode } from "react";
-
-export const metadata: Metadata = {
-  title: "Accueil Amanzi",
-};
 
 const AppLayout = ({
   children,
@@ -29,7 +24,7 @@ const AppLayout = ({
             className="h-full w-max"
           />
           <div className="brand flex items-center ml-2">
-            <h2 className="font-bold text-lg text-teal-800">Amanzi</h2>
+            <h2 className="font-bold text-lg text-emerald-600">Amanzi</h2>
             <span className="font-light text-lg">Fiscalis</span>
           </div>
         </div>
@@ -48,7 +43,7 @@ const AppLayout = ({
             <span>Bonjour, Guylain Béni</span>
             <UserDropdown />
           </div>
-          <Link href="#" className="">
+          <Link href="/help" className="">
             <Icon icon={CircleHelp} />
           </Link>
           <button type="button" className="">

@@ -1,0 +1,59 @@
+[
+  {
+    "subject": "Comment déclarer mes impôts en ligne ?",
+    "content": "Je voudrais savoir quelles sont les étapes pour déclarer mes impôts via le portail en ligne.",
+    "request_by": "Marie Laurent",
+    "request_time": "2024-10-03 09:00",
+    "responses": [
+      {
+        "content": "Pour déclarer vos impôts en ligne, connectez-vous à votre compte, accédez à la section 'Déclarations', sélectionnez 'Impôt sur le revenu' et suivez les instructions.",
+        "responded_by": "Jean Dupont",
+        "response_time": "2024-10-03 14:00"
+      },
+      {
+        "content": "Vous pouvez également consulter notre guide en ligne sur les déclarations fiscales pour des informations détaillées.",
+        "responded_by": "Sophie Martin",
+        "response_time": "2024-10-01 10:30"
+      }
+    ]
+  },
+  {
+    "subject": "Comment modifier une déclaration erronée ?",
+    "content": "Vous pouvez modifier une déclaration en vous rendant dans l'historique de vos déclarations, dans la section 'Déclarations'. Sélectionnez le type 'Impôts' ou 'Sécurité sociale', trouvez votre déclaration, puis cliquez sur 'Modifier'.",
+    "request_by": "Paul Durand",
+    "request_time": "2024-10-02 08:30",
+    "responses": [
+      {
+        "content": "Vous pouvez modifier une déclaration en accédant à votre historique de déclarations et en sélectionnant 'Modifier' après avoir trouvé la déclaration en question.",
+        "responded_by": "Alice Dubois",
+        "response_time": "2024-10-02 11:15"
+      }
+    ]
+  },
+  {
+    "subject": "Quelles sont les pièces justificatives pour une déclaration de TVA ?",
+    "content": "Je souhaite savoir quelles sont les pièces justificatives à fournir pour ma déclaration de TVA.",
+    "request_by": "Alexandre Leclerc",
+    "request_time": "2024-10-03 10:15",
+    "responses": [
+      {
+        "content": "Les pièces justificatives incluent les factures d'achat, les factures de vente, ainsi que les relevés bancaires correspondant aux transactions. Vous pouvez également fournir des documents spécifiques en cas d'exonérations.",
+        "responded_by": "Claire Dupont",
+        "response_time": "2024-10-03 12:00"
+      }
+    ]
+  },
+  {
+    "subject": "Comment obtenir un remboursement de crédit de TVA ?",
+    "content": "J'ai un crédit de TVA à mon actif. Comment puis-je demander un remboursement ?",
+    "request_by": "Lucie Martin",
+    "request_time": "2024-10-04 09:45",
+    "responses": [
+      {
+        "content": "Pour obtenir un remboursement de crédit de TVA, vous devez faire une demande auprès de votre centre fiscal avec les justificatifs de votre crédit de TVA. Assurez-vous d'avoir tous les documents requis, y compris vos déclarations antérieures.",
+        "responded_by": "Sophie Lambert",
+        "response_time": "2024-10-04 11:00"
+      }
+    ]
+  }
+]

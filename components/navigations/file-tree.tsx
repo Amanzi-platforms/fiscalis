@@ -19,7 +19,7 @@ export const FileTree = () => {
         <FileTreeItem
           label="Déclarations"
           subFiles={[
-            { label: "Nouvelle opération",  icon: CirclePlus,},
+            { label: "Nouvelle déclaration",  icon: CirclePlus,},
             { label: "Taxe sur la Valeur Ajoutée", path: "/declarations/vat" },
             { label: "Impôt sur le revenu", path: "/declarations/income-tax" },
             {

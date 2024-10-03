@@ -59,7 +59,7 @@ export const FileTreeItem: FC<FileTreeItemProps> = ({
           type="button"
           onClick={toggleMenu}
           className={`transition-all duration-300 ease-in-out flex items-center w-full z-20 sticky bg-white ${
-            isOpen ? "text-emerald-600 font-medium" : "text-gray-800"
+            isOpen ? "text-emerald-600 font-medium" : "text-gray-900"
           }`}
         >
           <Icon
@@ -72,10 +72,10 @@ export const FileTreeItem: FC<FileTreeItemProps> = ({
       ) : (
         <Link
           href={path}
-          className={`transition-all duration-300 ease-in-out flex items-center w-full z-20 sticky bg-white p-0.5 rounded ${
+          className={`transition-all duration-300 ease-in-out flex items-center w-full z-20 sticky p-0.5 rounded ${
             isActivePath(filePath as string)
               ? "bg-emerald-600 text-white"
-              : "text-gray-800"
+              : "text-gray-900 bg-white"
           }`}
         >
           <IconLink

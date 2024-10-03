@@ -44,7 +44,7 @@ export const FileTree = () => {
         />
 
         {/* Rapports */}
-        <FileTreeItem
+        {/* <FileTreeItem
           label="Rapports"
           subFiles={[
             { label: "Rapport général", path: "/reports/general" },
@@ -54,10 +54,10 @@ export const FileTree = () => {
               path: "/reports/social-security",
             },
           ]}
-        />
+        /> */}
 
         {/* Paramètres */}
-        <FileTreeItem
+        {/* <FileTreeItem
           label="Paramètres"
           subFiles={[
             { label: "Paramètres du profil", path: "/settings/profile" },
@@ -67,17 +67,17 @@ export const FileTree = () => {
             },
             { label: "Gestion du compte", path: "/settings/account" },
           ]}
-        />
+        /> */}
 
         {/* Aide */}
-        <FileTreeItem
+        {/* <FileTreeItem
           label="Aide"
           subFiles={[
             { label: "FAQ", path: "/help/faq" },
             { label: "Contacter le support", path: "/help/support" },
             { label: "Documentation", path: "/help/documentation" },
           ]}
-        />
+        /> */}
       </ul>
     </nav>
   );
